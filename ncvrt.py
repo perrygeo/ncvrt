@@ -60,7 +60,7 @@ def ncvrt(filename, wrap, flip):
     gts = ", ".join(str(x) for x in [c, a, b, f, d, e])
     gt.text = gts
 
-    print(tostring(root, encoding='unicode'))
+    print(tostring(root, encoding='utf-8'))
 
 if __name__ == "__main__":
     ncvrt()
